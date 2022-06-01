@@ -25,3 +25,15 @@ Welcome to my project portfolio! Click on any of the project titles to go to an 
 * Created an API for potential clients using Flask with functional HTML pages for local use. 
 
 ![](https://github.com/elayer/elayer.github.io/blob/main/images/price-by-processor-type.png "Price by Processor Type")
+
+# [Project 3) Fetal Health Condition Classifier:](https://github.com/elayer/Fetal-Health-Classifier-Project)
+
+* Created a model to classify for babies in fetal development, cardiotocography exams on whether the fetus has normal health conditions, is suspect of having some pathology, or has some pathological condition.  
+
+* Engineered new features utilizing Linear Discriminant Analysis and KMeans Clustering. I also performed PCA to orchestrate further and visualize further class separability.
+
+* Began model building with Support Vector Machine, K-Nearest Neighbors, Logistic Regression, Random Forest Classifier, and AdaBoost Classifier. I then used optuna for hyperparameter optmimization with XGBoost Classifier and CatBoost Classifier.
+
+* Created an API for potential clients using Flask with functional HTML pages for local use.
+
+![](https://github.com/elayer/elayer.github.io/blob/main/images/fetal_homepage.png "Fetal Health Classifier Homepage")
