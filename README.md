@@ -10,4 +10,4 @@ Welcome to my project portfolio! Click on any of the project titles to go to an 
 
 * Within Model Building, I began by dropping insignificant attributes as well as variables exhibiting multicollinearity. After using the OLS method from statsmodels, I moved into applying linear regression techniques such as standard Linear Regression, Elastic Net, and Kernel Ridge. I followed this up by applying more powerful models such as Random Forest, LightGBM, and XGBoost regression.
 
-![alt text](https://github.com/elayer/CarvanaCarsProject/blob/main/geomap_prices.png "Average Price per State Map")
+![](https://github.com/elayer/elayer.github.io/blob/main/images/geomap_prices.png "Average Price per State Map")
