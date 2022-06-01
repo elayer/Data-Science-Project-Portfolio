@@ -10,7 +10,7 @@ Welcome to my project portfolio! Click on any of the project titles to go to an 
 
 * Within Model Building, I began by dropping insignificant attributes as well as variables exhibiting multicollinearity. After using the OLS method from statsmodels, I moved into applying linear regression techniques such as standard Linear Regression, Elastic Net, and Kernel Ridge. I followed this up by applying more powerful models such as Random Forest, LightGBM, and XGBoost regression.
 
-![](https://github.com/elayer/elayer.github.io/blob/main/images/geomap_prices.png "Average Price per State Map")
+![](/images/geomap_prices.png "Average Price per State Map")
 
 # [Project 2) Amazon Gaming Computer Price Estimator:](https://github.com/elayer/Amazon-Computer-Project)
 * Created a model to help those looking to buy a gaming computer from Amazon make a more informed decision based on the specs of a computer.
@@ -23,7 +23,7 @@ Welcome to my project portfolio! Click on any of the project titles to go to an 
 
 * Created an API for potential clients using Flask with functional HTML pages for local use. 
 
-![](https://github.com/elayer/elayer.github.io/blob/main/images/price-by-processor-type.png "Price by Processor Type")
+![](/images/price-by-processor-type.png "Price by Processor Type")
 
 # [Project 3) Fetal Health Condition Classifier:](https://github.com/elayer/Fetal-Health-Classifier-Project)
 * Created a model to classify for babies in fetal development, cardiotocography exams on whether the fetus has normal health conditions, is suspect of having some pathology, or has some pathological condition.  
@@ -34,7 +34,7 @@ Welcome to my project portfolio! Click on any of the project titles to go to an 
 
 * Created an API for potential clients using Flask with functional HTML pages for local use.
 
-![](https://github.com/elayer/elayer.github.io/blob/main/images/fetal_homepage.png "Fetal Health Classifier Homepage")
+![](/images/fetal_homepage.png "Fetal Health Classifier Homepage")
 
 # [Project 4) Elden Ring Reviews Sentiment Analysis & Classification Project:](https://github.com/elayer/Steam-Elden-Ring-Reviews-Project)
 * Scraped roughly two hundred thousand reviews from Steam on the game <i>'Elden Ring'</i>. 
@@ -46,7 +46,7 @@ Welcome to my project portfolio! Click on any of the project titles to go to an 
 * Lastly, to analyze the topics of discussion among the apps to track down potential areas of game improvement and reception of the game itself, I performed 
 LDA (Latent Dirichlet Analysis) and LSA (Latent Semantic Analysis) to extract topic information and key distinguishing words in the text corpus.
 
-![](https://github.com/elayer/elayer.github.io/blob/main/images/chi2_picture.png "Elden Ring Reviews LSA Chi2 Scores")
+![](/images/chi2_picture.png "Elden Ring Reviews LSA Chi2 Scores")
 
 # [Project 5) Cryptocurrency Time Series Project:](https://github.com/elayer/CryptoTimeSeriesProject)
 * Created functions to automatically scrape Yahoo! Finance cryptocurrency tickers that the user chooses, collecting data from the current day back to 
@@ -60,7 +60,7 @@ January 1st, 2017.
 
 * Lastly, I constructed a StreamLit app allowing users to create Auto ARIMA and LSTM models and juxtapose their predictive power. The app allows users to choose date ranges to collect data, which crypto tickers to analyze, and from a chosen date to make predictions (currently can run locally).
 
-![](https://github.com/elayer/elayer.github.io/blob/main/images/CryptoAppTopPage.png "Crypto App Top Page")
+![](/images/CryptoAppTopPage.png "Crypto App Top Page")
 
 # [Project 6) American Airlines Mobile App Reviews Analysis:](https://github.com/elayer/American-Airlines-Mobile-App-Reviews-Analysis)
 * The goal of this project was to collect as many samples of reviews from American Airlines' mobile application as possible and find common issues that customers may be facing when using the application.
@@ -73,7 +73,7 @@ January 1st, 2017.
 
 * I applied lime and shap with the target being the rating (ranging from 1 to 5) as well as the topics generated from LDA when applied to all reviews.
 
-![](https://github.com/elayer/elayer.github.io/blob/main/images/aareviews_topics.png "LDA Topics for AA Reviews")
+![](/images/aareviews_topics.png "LDA Topics for AA Reviews")
 
 # [Project 7) City of Charlotte Geospatial Dashboard Project:](https://github.com/elayer/CharlotteGeospatialDashboard)
 * Collected 3 areas of data tracked by the City of Charlotte found on the city's website (Serious Traffic Accidents, Police Incidents, 311 Call Requests.
@@ -82,7 +82,7 @@ January 1st, 2017.
 
 * Created a StreamLit application to consolidate all geospatial maps into one dashboard.
 
-![](https://github.com/elayer/elayer.github.io/blob/main/images/st_top.png "Charlotte Dashboard StreamLit Top of Page")
+![](/images/st_top.png "Charlotte Dashboard StreamLit Top of Page")
 
 # [Project 8) Credit Card Clustering Project:](https://github.com/elayer/CreditCardClusteringProject)
 * In this project, I attempt to split a credit card dataset I obtained through Kaggle into clusters and give the customers appropriate labels which could 
@@ -97,4 +97,4 @@ all frequency attributes were positively correlated with their general attribute
 
 * Using a scree plot/elbow method, I elected to use 4 clusters to split the data, and found that 4 clusters represented the data fairly well.
 
-![](https://github.com/elayer/elayer.github.io/blob/main/images/kmeans_pic1.png "KMeans Clustering Correlation")
+![](/images/kmeans_pic1.png "KMeans Clustering Correlation")
