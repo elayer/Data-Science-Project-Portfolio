@@ -37,3 +37,54 @@ Welcome to my project portfolio! Click on any of the project titles to go to an 
 * Created an API for potential clients using Flask with functional HTML pages for local use.
 
 ![](https://github.com/elayer/elayer.github.io/blob/main/images/fetal_homepage.png "Fetal Health Classifier Homepage")
+
+# [Project 4) Elden Ring Reviews Sentiment Analysis & Classification Project:](https://github.com/elayer/Steam-Elden-Ring-Reviews-Project)
+
+* Scraped roughly two hundred thousand reviews from Steam on the game <i>'Elden Ring'</i>. 
+
+* Tokenized the review text to conduct N-Gram analysis, create word clouds, and construct data to be fed into NLP models (namely Sentiment Analysis).
+
+* To perform Sentiment Classification, I began model building by using Naive Bayes, SGD Classifier and Logistic Regression. Following this, I built a deep learning PyTorch model utilizing HuggingFace transformers. I chose the RoBERTa model for its optimized and robust performance.
+
+* Lastly, to analyze the topics of discussion among the apps to track down potential areas of game improvement and reception of the game itself, I performed 
+LDA (Latent Dirichlet Analysis) and LSA (Latent Semantic Analysis) to extract topic information and key distinguishing words in the text corpus.
+
+![](https://github.com/elayer/elayer.github.io/blob/main/images/chi2_picture.png "Elden Ring Reviews LSA Chi2 Scores")
+
+# [Project 5) Cryptocurrency Time Series Project:](https://github.com/elayer/CryptoTimeSeriesProject)
+
+* Created functions to automatically scrape Yahoo! Finance cryptocurrency tickers that the user chooses, collecting data from the current day back to 
+January 1st, 2017. 
+
+* Explored various cryptocurrency trends and their possible influence by Russia's invasion of Ukraine.
+
+* Using BTC data (BitCoin), explored various time series algorithms, such as AR, MA, ARCH and ARIMA to investigate the best model to graph the data. Eventually found that utilizing exogenous data with Auto ARIMA generates models that follow the data very closely.
+
+* As a follow up, I then made an LSTM model with PyTorch to forecast cryptocurrency values.
+
+* Lastly, I constructed a StreamLit app allowing users to create Auto ARIMA and LSTM models and juxtapose their predictive power. The app allows users to choose date ranges to collect data, which crypto tickers to analyze, and from a chosen date to make predictions (currently can run locally).
+
+![](https://github.com/elayer/elayer.github.io/blob/main/images/CryptoAppTopPage.png "Crypto App Top Page")
+
+# [Project 6) American Airlines Mobile App Reviews Analysis:](https://github.com/elayer/American-Airlines-Mobile-App-Reviews-Analysis)
+* The goal of this project was to collect as many samples of reviews from American Airlines' mobile application as possible and find common issues that customers may be facing when using the application.
+
+* Scraped approximately 3700 reviews from the American Airlines mobile application off of the Apple App store. 
+
+* Prior to performing analysis tasks, I used nltk and string methods to tokenize the reviews data.
+
+* Following tokenization, I applied a wide range of analysis techniques to the text data of reviews. These including N-gram analysis, t-SNE for word exploration, Latent Dirichlet Analysis (LDA) to identify common topics within the data, as well as LIME and SHAP to investigate word impact on rating/sentiment as well as potentially towards the topics LDA identified.
+
+* I applied lime and shap with the target being the rating (ranging from 1 to 5) as well as the topics generated from LDA when applied to all reviews.
+
+![](https://github.com/elayer/elayer.github.io/blob/main/images/aareviews_topics.png "LDA Topics for AA Reviews")
+
+# [Project 7) City of Charlotte Geospatial Dashboard Project:](https://github.com/elayer/CharlotteGeospatialDashboard)
+
+* Collected 3 areas of data tracked by the City of Charlotte found on the city's website (Serious Traffic Accidents, Police Incidents, 311 Call Requests.
+
+* Cleaned and processed the data when ncessary, such as creating date columns or filtering out locations outside of Charlotte, North Carolina. Conducted some EDA in attempt to pick up any initial findings as a base to inspire parameter decision when creating maps.
+
+* Created a StreamLit application to consolidate all geospatial maps into one dashboard.
+
+![](https://github.com/elayer/elayer.github.io/blob/main/images/st_top.png "Charlotte Dashboard StreamLit Top of Page")
