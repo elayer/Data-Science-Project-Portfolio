@@ -93,8 +93,8 @@ be used toward business decisions or marketing efforts.
 * I then performed EDA by using correlation and bivariate analysis techniques. As one would expect, those with higher balance had a higher credit limit, and just about 
 all frequency attributes were positively correlated with their general attribute counterpart.
 
-* Applied K-Means and PCA to the data in attempt to create appropriate clusters based on the data. 
+* Applied K-Means with PCA and UMAP to the data in attempt to create appropriate clusters based on the data. 
 
-* Using a scree plot/elbow method, I elected to use 4 clusters to split the data, and found that 4 clusters represented the data fairly well.
+* Using a scree plot/elbow method, I elected to use 4 clusters to split the data. I found that 4 clusters represented the data fairly well with PCA, and UMAP was an upgrade from PCA in that the 4 clusters were split more elaborately and group size was much more balanced (the below picture illustrates a split one two attributes using UMAP as the dimensionality reduction technique).
 
-![](/images/kmeans_pic1.png "KMeans Clustering Correlation")
+![](/images/umap_plot_1.png "KMeans Clustering Correlation")
