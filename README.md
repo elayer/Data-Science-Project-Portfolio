@@ -10,7 +10,7 @@ Welcome to my project portfolio! Click on any of the project titles to go to an 
 
 * Within Model Building, I began by dropping insignificant attributes as well as variables exhibiting multicollinearity. After using the OLS method from statsmodels, I moved into applying linear regression techniques such as standard Linear Regression, Elastic Net, and Kernel Ridge. I followed this up by applying more powerful models such as Random Forest, LightGBM, and XGBoost regression.
 
-![](/Data-Science-Project-Portfolio/blob/main/images/geomap_prices.png "Average Price per State Map")
+![](/main/images/geomap_prices.png "Average Price per State Map")
 
 # [Project 2) Amazon Gaming Computer Price Estimator:](https://github.com/elayer/Amazon-Computer-Project)
 * Created a model to help those looking to buy a gaming computer from Amazon make a more informed decision based on the specs of a computer.
