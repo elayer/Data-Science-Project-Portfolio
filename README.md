@@ -1,6 +1,8 @@
 # Data Science Project Portfolio
 Welcome to my project portfolio! Click on any of the project titles to go to an individual project's repository.
 
+You may also visit my [Kaggle profile](https://www.kaggle.com/ericlayer) to view other works of mine.
+
 # [Project 1) Carvana Cars Regression Project:](https://github.com/elayer/CarvanaCarsProject)
 * Created a model base to help those considering selling or trading in their car to Carvana get an idea of what price they can expect.
 
