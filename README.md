@@ -100,3 +100,6 @@ all frequency attributes were positively correlated with their general attribute
 * Using a scree plot/elbow method, I elected to use 4 clusters to split the data. I found that 4 clusters represented the data fairly well with PCA, and UMAP was an upgrade from PCA in that the 4 clusters were split more elaborately and group size was much more balanced (the below picture illustrates a split one two attributes using UMAP as the dimensionality reduction technique).
 
 ![](./images/umap_plot_1.png "KMeans Clustering Correlation")
+
+# [Project 9) Airline Passenger Satisfaction Classification & Clustering (IN PROGRESS):]
+* This project's goal is to identify factors that lead to flight experience satisfaction, and potentially identify groups of flight experiences with consistent satisfaction scores (the data for this project comes from Kaggle).
