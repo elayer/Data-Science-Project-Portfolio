@@ -101,5 +101,5 @@ all frequency attributes were positively correlated with their general attribute
 
 ![](./images/umap_plot_1.png "KMeans Clustering Correlation")
 
-# [Project 9) Airline Passenger Satisfaction Classification & Clustering (IN PROGRESS):]
+# Project 9) Airline Passenger Satisfaction Classification & Clustering (In Progress):
 * This project's goal is to identify factors that lead to flight experience satisfaction, and potentially identify groups of flight experiences with consistent satisfaction scores (the data for this project comes from Kaggle).
