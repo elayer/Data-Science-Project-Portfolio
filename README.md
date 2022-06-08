@@ -12,6 +12,8 @@ You may also visit my [Kaggle profile](https://www.kaggle.com/ericlayer) to view
 
 * Within Model Building, I began by dropping insignificant attributes as well as variables exhibiting multicollinearity. After using the OLS method from statsmodels, I moved into applying linear regression techniques such as standard Linear Regression, Elastic Net, and Kernel Ridge. I followed this up by applying more powerful models such as Random Forest, LightGBM, and XGBoost regression.
 
+* Built a FlaskAPI framework to enable potential users to obtain predicted car prices given their desired car information.
+
 ![](./images/geomap_prices.png "Average Price per State Map")
 
 # [Project 2) Amazon Gaming Computer Price Estimator:](https://github.com/elayer/Amazon-Computer-Project)
